@@ -1,0 +1,10 @@
+services:
+  verifier1:
+    build: .
+    volumes:
+      - ./data/data:/app/data
+      - ./data/cysic/:/root/.cysic/
+    env_file:
+      - .env
+    network_mode: "host"
+    restart: unless-stopped

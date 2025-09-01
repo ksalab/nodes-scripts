@@ -1,0 +1,29 @@
+{
+  "semi": true,
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "printWidth": 80,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "plugins": ["prettier-plugin-sh"],
+  "overrides": [
+    {
+      "files": ["*.sh"],
+      "options": {
+        "parser": "sh",
+        "tabWidth": 2,
+        "printWidth": 80
+      }
+    },
+    {
+      "files": ["*.py"],
+      "options": {
+        "singleQuote": true,
+        "tabWidth": 4,
+        "printWidth": 88
+      }
+    }
+  ]
+}

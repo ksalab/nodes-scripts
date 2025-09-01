@@ -1,0 +1,7 @@
+.vscode/
+bak/
+node_modules/
+backup_node/
+
+package-lock.json
+package.json
